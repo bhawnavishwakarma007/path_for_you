@@ -1,0 +1,117 @@
+
+/* Container for the registration form */
+.registration-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Form container */
+.registration-form {
+  background: #ffffff; /* White background */
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box; /* Ensures padding and width calculations are correct */
+  overflow: auto;
+}
+
+/* Header styling */
+.registration-form .form-header {
+  margin-bottom: 20px;
+}
+
+.registration-form .form-header h2 {
+  font-size: 1.5rem;
+  color: #001f3f; /* Dark blue */
+  margin: 10px 0;
+  text-align: center;
+}
+
+.registration-form .form-header p {
+  font-size: 0.9rem;
+  color: #6c757d; /* Gray text */
+  margin: 0;
+  text-align: center;
+}
+
+/* Form group styling */
+.registration-form .form-group {
+  margin-bottom: 15px;
+}
+
+.registration-form .form-group input,
+.registration-form .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 5px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+/* React-select custom styles */
+.registration-form .react-select {
+  font-size: 0.9rem;
+}
+
+.registration-form .react-select .css-1s2u09g-control {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.registration-form .react-select .css-1okebmr-indicatorSeparator {
+  display: none; /* Hide separator line */
+}
+
+/* Button styling */
+.registration-form .btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #001f3f; /* Dark blue */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form .btn:hover {
+  background-color: #004080; /* Slightly lighter blue */
+}
+
+/* Sign-in link styling */
+.registration-form p.text-center a {
+  color: #001f3f; /* Dark blue link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.registration-form p.text-center a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .registration-page {
+    padding: 15px; /* More padding for smaller screens */
+  }
+
+  .registration-form {
+    padding: 20px; /* Reduced padding */
+    max-width: 90%; /* Make form take more width on smaller screens */
+  }
+
+  .registration-form .form-header h2 {
+    font-size: 1.2rem; /* Smaller font size for headers */
+  }
+}

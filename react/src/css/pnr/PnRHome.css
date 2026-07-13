@@ -1,0 +1,139 @@
+/* General Page Container */
+.page-container1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Content Container with Flex */
+.content-container1 {
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+}
+
+/* Main Content Area */
+.main-content1 {
+  flex-grow: 1;
+  margin-left: 270px; /* Offset from sidebar to prevent overlap */
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 20px; /* Add some space on the right if necessary */
+}
+
+
+/* Featured Jobs Section */
+.section1 {
+  margin-left: 20px; /* Shift the content a bit to the right */
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 190px;
+  
+}
+
+.section1 h2 {
+  font-size: 24px;
+  color: #0f0101;
+  margin-top: -120px;
+  margin-bottom: 0px;
+}
+
+.section1 h6 {
+  font-size: 16px;
+  text-align: center;
+  color: #01000f;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.section1 p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #01000f;
+}
+
+/* Parent container for the cards */
+.card-list1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between cards */
+  padding: 24px 14px; /* Adjust padding to avoid overlap */
+  margin: 0 auto; /* Center align the cards */
+  width: 84%; /* Ensure it adapts to the container width */
+  box-sizing: border-box;
+}
+
+/* Card styling */
+.card1 {
+  background: #f8f9fa; /* Light gray background */
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  padding: 20px;
+ /* Center-align the content */
+  overflow: hidden; /* Prevent content overflow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth effects */
+}
+
+/* Card hover effect */
+.card1:hover {
+  transform: translateY(-8px); /* Lift the card slightly */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+/* Card title styling */
+.card1 h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #343a40; /* Dark gray text */
+  margin-bottom: 10px;
+}
+
+/* Card company and location styling */
+.card1 p {
+  font-size: 0.95rem;
+  margin: 5px 0;
+  color: #495057; /* Slightly lighter gray */
+}
+
+/* Button styling */
+.card1 button {
+  background: linear-gradient(135deg, #007bff, #004aad);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded button */
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+.card1 button:hover {
+  background: linear-gradient(135deg, #0056b3, #00367a);
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card1 {
+    padding: 15px;
+  }
+
+  .card1 h4 {
+    font-size: 1.1rem;
+  }
+
+  .card1 p {
+    font-size: 0.9rem;
+  }
+
+  .card1 button {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }  
+}   

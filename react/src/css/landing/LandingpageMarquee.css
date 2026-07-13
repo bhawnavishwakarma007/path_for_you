@@ -1,0 +1,9 @@
+
+.landingpage-marquee {
+  background-color: #0d6efd; /* Custom blue color */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}

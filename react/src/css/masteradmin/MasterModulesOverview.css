@@ -1,0 +1,43 @@
+.modules-overview {
+  display: flex;
+  gap: 20px;
+  background-color: #f4f4f4; /* Set the complete background color to grayish */
+  padding: 20px;
+  flex-wrap: wrap; /* Ensure it wraps properly on smaller screens */
+  margin-top: -20px; /* Adjust this to match the header's height */
+}
+
+.modules-overview h3 {
+  font-size: 24px;
+  color: black; /* Set heading text color to black */
+  margin-bottom: 20px; /* Add space below the heading */
+  width: 100%; /* Ensure the heading spans the full width */
+  text-align: left; /* Align the heading to the left */
+}
+
+.module-box {
+  background-color: white; /* Set box background to white */
+  color: black; /* Set text color to black inside the box */
+  padding: 20px;
+  margin: 0px; /* Reduced margin between boxes */
+  margin-left: 30px; /* Reduced left margin to bring boxes closer */
+  border-radius: -3px;
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding subtle shadow */
+}
+
+.module-box h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #000000; /* Accent color for numbers */
+}
+
+.module-box p {
+  font-size: 14px;
+  color: black; /* Set text color to black for the description */
+}
+
+

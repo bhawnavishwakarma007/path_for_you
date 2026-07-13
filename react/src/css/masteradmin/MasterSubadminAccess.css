@@ -1,0 +1,15 @@
+/* MasterSubadminAccess.css */
+.subadmin-access {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.subadmin-access .card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,164 @@
+/* Job Listings Main Container */
+.job-listings-container {
+  font-family: Arial, sans-serif;
+  padding: 100px;
+  max-width: 1300px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.job-listings-container .job-type-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: 18px;
+  margin-bottom: 40px;
+}
+
+
+
+/* Title of the page */
+.job-listings-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Job Type Buttons */
+.job-listings-container .job-type-buttons button {
+  padding: 12px 12px;
+  font-size: 17px;
+  background-color: #002244;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  max-width: 250px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 120px;
+}
+
+.job-listings-container .job-type-buttons button:hover {
+  background-color: #3a8de5;
+}
+
+/* Job Div */
+.job-listings-container .job-div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+
+/* Job Content Container */
+.job-listings-container .job-cont1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  gap: 15px;
+  width: 90%;
+}
+
+.job-listings-container .job-cont1 .job-title {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Job Card */
+.job-listings-container .job-card {
+  background: white;
+  padding: 17px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.job-listings-container .job-card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-8px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #f9f9f9;
+}
+
+
+
+/* Job Header */
+.job-listings-container .job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-listings-container .job-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+
+/* Job Icons */
+.job-listings-container .job-icons {
+  display: flex;
+  gap: 0px;
+}
+
+.job-listings-container .icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: gray;
+}
+
+.job-listings-container .icon:hover {
+  color: black;
+}
+
+/* Job Info */
+.job-listings-container .job-info {
+  display: flex;
+  gap: 16px;
+  font-size: 17px;
+  color: rgb(116, 116, 116);
+}
+
+/* Job Dates */
+.job-listings-container .job-dates {
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #555;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.job-listings-container .job-dates div {
+  flex: 1;
+  text-align: center;
+}
+
+/* Apply Button */
+.job-listings-container .apply-btn {
+  background: linear-gradient(135deg, #007bff, #004aad);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 740px;
+  font-size: 15px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.job-listings-container .apply-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #00367a);
+}

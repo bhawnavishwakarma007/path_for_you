@@ -1,0 +1,13 @@
+/* MasterDashboard.css */
+.dashboard-body {
+  display: flex;
+  margin-top: 60px; /* Adjust for header */
+}
+
+.main-content {
+  margin-left: 250px; /* Sidebar width */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

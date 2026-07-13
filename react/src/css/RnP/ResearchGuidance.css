@@ -1,0 +1,112 @@
+/* App.css */
+
+.research-guidance-page .guidance-body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.research-guidance-rg {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar-rg {
+  width: 250px;
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+  height: 100;
+}
+
+.sidebar-rg h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.sidebar-rg ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-rg ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.sidebar-rg ul li.active,
+.sidebar-rg ul li:hover {
+  background-color: #3b82f6;
+}
+
+.main-content-rg {
+  flex: 1;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar-rg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.topbar-rg input {
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.content-area-rg {
+  padding: 20px;
+}
+
+.content-area-rg h1 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.thesis-tips-rg {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.tip-rg {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.additional-materials-rg {
+  margin-top: 30px;
+}
+
+.additional-materials-rg h3 {
+  margin-bottom: 10px;
+}
+
+.additional-materials-rg ul {
+  list-style: none;
+  padding: 0;
+}
+
+.additional-materials-rg ul li {
+  padding: 5px 0;
+  color: #3b82f6;
+  cursor: pointer;
+}

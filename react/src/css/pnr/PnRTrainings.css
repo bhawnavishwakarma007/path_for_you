@@ -1,0 +1,18 @@
+.trainings {
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.training-card {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.training-card:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,15 @@
+/* Logo Section
+.custom-navbar .landingpage-logo-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; 
+} */
+
+/* .landingpage-logo-img {
+  height: 50px; 
+  width: auto;  
+} */
+.landingpage-navbar .landingpage-logo-img {
+  height: 50px; /* Adjust as needed */
+  width: auto;
+}

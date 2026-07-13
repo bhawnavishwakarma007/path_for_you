@@ -1,0 +1,157 @@
+/* General Styles */
+.research-landing-page .research-body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.research-landing-page .research-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  color: #fff;
+}
+
+.research-landing-page .research-navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.research-landing-page .research-navbar button {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Hero Section */
+.research-landing-page .research-hero {
+  background: linear-gradient(to right, #f8f6f6, #f8f6f6);
+  color: #060606;
+  padding: 5rem 1rem;
+}
+
+.research-landing-page .research-hero h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.research-landing-page .research-hero .research-lead {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.research-landing-page .research-hero button {
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+}
+
+/* Services Section */
+.research-landing-page .research-services h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.research-landing-page .research-services .research-card {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.research-landing-page .research-services .research-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.research-landing-page .research-services .research-card h5 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #021733;
+}
+
+.research-landing-page .research-services .research-card p {
+  font-size: 0.95rem;
+}
+
+/* Why Choose Us Section */
+.research-landing-page .research-why-choose-us {
+  background-color: #f8f9fa;
+}
+
+.research-landing-page .research-why-choose-us h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.research-landing-page .research-why-choose-us h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #001e32;
+}
+
+.research-landing-page .research-why-choose-us p {
+  font-size: 0.95rem;
+  color: #605f5f;
+}
+
+/* Footer */
+.research-landing-page .research-footer {
+  background: #333;
+  color: #ffffff;
+  padding: 2rem 1rem;
+}
+
+.research-landing-page .research-footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.research-landing-page .research-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.research-landing-page .research-footer ul li {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.research-landing-page .research-footer p {
+  font-size: 0.9rem;
+}
+
+.research-landing-page .research-footer .research-social-icons {
+  margin-top: 1rem;
+}
+
+.research-landing-page .research-footer .research-social-icons a {
+  color: #33AEFF;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  transition: color 0.3s;
+}
+
+.research-landing-page .research-footer .research-social-icons a:hover {
+  color: #0062E6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .research-landing-page .research-hero h2 {
+    font-size: 2.2rem;
+  }
+
+  .research-landing-page .research-hero .research-lead {
+    font-size: 1rem;
+  }
+
+  .research-landing-page .research-footer .research-social-icons a {
+    font-size: 1.2rem;
+  }
+}

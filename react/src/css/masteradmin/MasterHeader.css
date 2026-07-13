@@ -1,0 +1,59 @@
+/* MasterHeader.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.navbar-left h1 {
+  font-size: 24px;
+  color: black;
+}
+
+.navbar-center .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-center .nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.navbar-center .nav-links a:hover {
+  color: #0d6efd;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.add-btn-container .add-btn {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-btn-container .add-btn:hover {
+  background-color: #0a58ca;
+}
+
+.icons-container .icon {
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.icons-container .icon:hover {
+  color: #0d6efd;
+}

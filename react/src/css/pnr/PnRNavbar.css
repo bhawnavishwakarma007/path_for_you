@@ -1,0 +1,74 @@
+/* Navbar container */
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f7fa; /* Dark blue background */
+  color: white;
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure navbar stays on top of other elements */
+}
+
+/* Logo styling */
+.navbar1 .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0); /* Make sure logo text is white */
+}
+
+/* Menu links container */
+.navbar1 .menu {
+  display: flex;
+  gap: 15px; /* Space out the menu items */
+}
+
+/* Menu link styling */
+.navbar1 .menu a {
+  color: #000000; /* Lighter color for menu links for better visibility */
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar1 .menu a:hover {
+  color: #ffcc00; /* Hover effect for links */
+}
+
+/* Search bar container */
+.navbar1 .search {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between input and button */
+}
+
+/* Search input field */
+.navbar1 .search input {
+  padding: 5px 12px; /* Bigger padding for better size */
+  font-size: 1.1em; /* Slightly bigger font */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px; /* Increase input width */
+}
+
+/* Search button */
+.navbar1 .search button {
+  padding: 5px 10px; /* Smaller button */
+  font-size: 0.9em; /* Smaller text */
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #004085;
+  transition: background-color 0.3s ease;
+}
+
+.navbar1 .search button:hover {
+  background-color: #e6b800;
+}

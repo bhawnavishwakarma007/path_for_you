@@ -1,0 +1,15 @@
+/* LoginPage.css */
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animated-card {
+  animation: slideIn 0.6s ease-out; /* Slide-in effect */
+}

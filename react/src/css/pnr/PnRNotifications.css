@@ -1,0 +1,17 @@
+.notifications {
+  padding: 20px;
+  text-align: center;
+}
+
+.notification-card {
+  background: #fff8e1;
+  padding: 15px;
+  border: 1px solid #ffe082;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.notification-card p {
+  font-size: 0.9em;
+  color: #6c757d;
+}

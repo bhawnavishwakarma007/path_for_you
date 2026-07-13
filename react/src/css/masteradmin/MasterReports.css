@@ -1,0 +1,44 @@
+/* ReportsManagement.css */
+.reports-management {
+  padding: 20px;
+  margin-left: 270px;  /* Push content to avoid sidebar overlap */
+  margin-top: 80px;    /* Push down to avoid navbar */
+  box-sizing: border-box;
+}
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;  /* Prevent overflow by allowing wrapping */
+}
+
+select, input[type="date"] {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+table {
+  width: calc(100% - 30px);  /* Fit within viewport without overflow */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.export-options {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;  /* Responsive for smaller screens */
+}

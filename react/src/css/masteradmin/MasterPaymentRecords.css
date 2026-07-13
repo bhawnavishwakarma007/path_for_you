@@ -1,0 +1,174 @@
+/* MasterPaymentRecords.css */
+.payment-records {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: -20px; 
+}
+
+.payment-records h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* Horizontal Action Section */
+.action-section {
+  display: flex;
+  justify-content: space-between; /* Space between left (search) and right (actions) */
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* Search Section (on the left) */
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-container input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.search-container svg {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+}
+
+/* Right-side Actions (Add, Filter) */
+.actions-right {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Space between buttons */
+}
+
+/* + Add Action Button */
+.add-action-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.add-action-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Filter Section */
+.filter-section select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Filter Button */
+.filter-btn {
+  padding: 8px 12px;
+  background-color: #17a2b8;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.filter-btn:hover {
+  background-color: #117a8b;
+}
+
+/* Table Styles */
+.payment-records table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: white;
+}
+
+.payment-records table th,
+.payment-records table td {
+  padding: 12px 16px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+}
+
+.payment-records table th {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+.payment-records .status {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.payment-records .status.paid {
+  color: #28a745; /* Green for paid status */
+}
+
+.payment-records .status.pending {
+  color: #ffc107; /* Yellow for pending status */
+}
+
+.payment-records button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.payment-records button:hover {
+  background-color: #0056b3;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+}
+
+.pagination button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #007bff;
+  color: white;
+}

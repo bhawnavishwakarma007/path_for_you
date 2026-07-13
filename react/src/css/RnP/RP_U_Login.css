@@ -1,0 +1,105 @@
+/* RP_U_Login.css */
+
+/* Body styles */
+.rp-login-container {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rp-login-container .rp-login-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.rp-login-container .rp-login-icon {
+  font-size: 40px;
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+
+.rp-login-container .rp-login-header h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.rp-login-container .rp-login-header a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.rp-login-container .rp-login-form .rp-form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.rp-login-container .rp-login-form .rp-form-group label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.rp-login-container .rp-login-form .rp-form-group label i {
+  margin-right: 8px;
+}
+
+.rp-login-container .rp-login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.rp-login-container .rp-login-form .rp-form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.rp-login-container .rp-login-form .rp-form-options a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.rp-login-container .rp-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.rp-login-container .rp-btn.rp-google-btn {
+  background: #ea4335;
+}
+
+.rp-login-container .rp-btn.rp-github-btn {
+  background: #333;
+}
+
+.rp-login-container .rp-social-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.rp-login-container .rp-or-container {
+  margin: 15px 0;
+  color: #888;
+  font-size: 14px;
+}
