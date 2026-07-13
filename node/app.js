@@ -1,3 +1,4 @@
+//node/app.js
 const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
@@ -19,6 +20,7 @@ app.use(compression());
 
 app.use(morgan("combined"));
 
+console.log("FRONTEND_URL =", process.env.FRONTEND_URL);
 app.use(cors({
     origin: process.env.FRONTEND_URL,
     credentials: true
