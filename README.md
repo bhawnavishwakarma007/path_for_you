@@ -334,9 +334,7 @@ vi .env
 Example:
 
 ```env
-VITE_API_URL=http://internal-backend-alb.amazonaws.com
-# later:
-# VITE_API_URL=https://api.path4you.com
+VITE_API_URL=/api
 ```
 
 </details>
