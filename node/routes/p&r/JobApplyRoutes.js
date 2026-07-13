@@ -1,7 +1,7 @@
-// routes/jobApplyRoutes.js
+// routes/JobApplyRoutes.js
 const express = require('express');
-const JobApplyController = require('../../controllers/module1Controller/jobApplyController');
-const uploadMiddleware = require('../../Middleware/module1Middleware/uploadMiddleware');
+const JobApplyController = require('../../controllers/module1Controller/JobApplyController');
+const uploadMiddleware = require('../../middleware/module1Middleware/uploadMiddleware');
 const router = express.Router();
 
 router.post('/apply', uploadMiddleware.fields([{ name: 'resume' }, { name: 'photo' }]), JobApplyController.createJobApply);

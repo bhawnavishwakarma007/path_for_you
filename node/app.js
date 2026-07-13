@@ -8,7 +8,7 @@ const errorHandler = require("./middleware/module1Middleware/errorHandler");
 
 const adminRoutes = require("./routes/Auth/adminRoutes");
 const jobRoutes = require("./routes/p&r/jobRoutes");
-const authRoutes = require("./routes/p&r/AuthRoutes");
+const authRoutes = require("./routes/p&r/authRoutes");
 const jobApplyRoutes = require("./routes/p&r/JobApplyRoutes");
 
 const app = express();
