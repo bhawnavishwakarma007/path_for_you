@@ -54,7 +54,6 @@ VALUES
 ('Alice Johnson', 'alice.johnson@example.com', 'hashed_password_3', '5555555555', 'Technical');
 
 select * from tp_users;
-drop table tp_users;
 
 CREATE TABLE job_applications (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -81,7 +80,6 @@ CREATE TABLE job_applications (
 );
 
 SELECT * FROM job_applications;
-drop table job_applications;
 
 -- Create the Jobs Table
 CREATE TABLE Jobs (
@@ -115,7 +113,7 @@ CREATE TABLE Jobs (
 	applyStartDate DATE NOT NULL, -- Apply start date
     deadline DATE NOT NULL -- Last date to apply
 );
-drop table Jobs;
+
 
 
 INSERT INTO Jobs (
@@ -185,7 +183,6 @@ create table rp_registration (
     rp_profilepic varchar(255) -- path/url for profile picture
     
 );
-drop table rp_registration;
 
 create table rp_publication_users (
     user_id int auto_increment primary key, -- unique id for each user
@@ -224,7 +221,7 @@ create table rp_publication_users (
 	foreign key (user_id) references rp_registration(rp_uid) -- link userid to registration table
 );
 
-drop table rp_publication_users;
+
 -- SELECT * FROM files WHERE userid = ?;
 
 CREATE TABLE u_profile (

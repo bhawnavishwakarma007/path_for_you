@@ -1,7 +1,11 @@
+// react/src/services/pnr/api.js
 import axios from 'axios';
 
-const JOBS_API_URL = 'http://localhost:5000/api/jobs';
-const AUTH_API_URL = 'http://localhost:5000/api/auth';
+// const JOBS_API_URL = 'http://localhost:5000/api/jobs';
+// const AUTH_API_URL = 'http://localhost:5000/api/auth';
+
+const JOBS_API_URL = "/api/jobs";
+const AUTH_API_URL = "/api/auth";
 
 // Job-related APIs
 export const applyJob = async (formData) => {
