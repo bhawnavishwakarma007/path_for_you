@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api";
+const API_URL = "http://internal-backendlb-1276012106.us-east-1.elb.amazonaws.com/api";
 
 export const getJobs = async () => {
   try {
